@@ -51,41 +51,46 @@
                     <div class="flex flex-wrap justify-center gap-6">
                         <!-- Healthy Body Card -->
                         <div class="bg-green-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/healthy-body-image.jpg" >
+                            <img src="path/to/healthy-body-image.jpg">
                             <h2 class="text-xl font-semibold mb-2">Healthy Body</h2>
-                            <p class="text-gray-700">Learn how to work with your DNA to build a diet and fitness routine that gets results more quickly.</p>
+                            <p class="text-gray-700">Learn how to work with your DNA to build a diet and fitness routine
+                                that gets results more quickly.</p>
                             <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
                         </div>
-            
+
                         <!-- Family Planning Card -->
                         <div class="bg-blue-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/family-planning-image.jpg" >
+                            <img src="path/to/family-planning-image.jpg">
                             <h2 class="text-xl font-semibold mb-2">Family Planning</h2>
-                            <p class="text-gray-700">Get screened for hereditary genetic conditions that may be passed on to your child.</p>
+                            <p class="text-gray-700">Get screened for hereditary genetic conditions that may be passed
+                                on to your child.</p>
                             <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
                         </div>
-            
+
                         <!-- Cancer & Disease Risk Card -->
                         <div class="bg-yellow-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/cancer-risk-image.jpg" >
+                            <img src="path/to/cancer-risk-image.jpg">
                             <h2 class="text-xl font-semibold mb-2">Cancer & Disease Risk</h2>
-                            <p class="text-gray-700">Discover your genetic risk level for hundreds of cancers & diseases that may impact your future.</p>
+                            <p class="text-gray-700">Discover your genetic risk level for hundreds of cancers & diseases
+                                that may impact your future.</p>
                             <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
                         </div>
-            
+
                         <!-- Skin Card -->
                         <div class="bg-purple-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/skin-image.jpg" >
+                            <img src="path/to/skin-image.jpg">
                             <h2 class="text-xl font-semibold mb-2">Skin</h2>
-                            <p class="text-gray-700">Get personalised skincare tips and insights to reveal your brightest, most youthful skin.</p>
+                            <p class="text-gray-700">Get personalised skincare tips and insights to reveal your
+                                brightest, most youthful skin.</p>
                             <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
                         </div>
-            
+
                         <!-- Success Traits Card -->
                         <div class="bg-orange-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/success-traits-image.jpg" >
+                            <img src="path/to/success-traits-image.jpg">
                             <h2 class="text-xl font-semibold mb-2">Success Traits</h2>
-                            <p class="text-gray-700">Discover your child's hidden genetic talents and help them achieve their highest potential.</p>
+                            <p class="text-gray-700">Discover your child's hidden genetic talents and help them achieve
+                                their highest potential.</p>
                             <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
                         </div>
                     </div>
@@ -104,6 +109,8 @@
             },
         });
     </script>
+
+    <x-footer></x-footer>
 </body>
 
 </html>
