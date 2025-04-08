@@ -7,16 +7,16 @@
         <ul
             class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
             <li>
-                <a href="/" class="hover:underline me-4 md:me-6">HOME</a>
+                <x-nav-foo class="hover:underline me-4 md:me-6" href="/" :active="request()->is('/')"> HOME</x-nav-foo>
             </li>
             <li>
-                <a href="/shop" class="hover:underline me-4 md:me-6">SHOP</a>
+                <x-nav-foo href="/shop" :active="request()->is('shop')"> SHOP</x-nav-foo>
             </li>
             <li>
-                <a href="/report" class="hover:underline me-4 md:me-6">DNA REPORT</a>
+                <x-nav-foo href="/report" :active="request()->is('report')"> DNA REPORT</x-nav-foo>
             </li>
             <li>
-                <a href="/" class="hover:underline">DREAM LIFE</a>
+                <x-nav-foo href="/life" :active="request()->is('life')">DREAM LIFE</x-nav-foo>
             </li>
         </ul>
     </div>
