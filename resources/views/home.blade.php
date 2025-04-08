@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Dna Test</title>
-
+    <link rel="icon" type="image/png" href="img/logo3.png">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
@@ -236,37 +236,51 @@
             <h2 class="text-2xl font-bold text-center my-8">What our customers have to say</h2>
             <swiper-container class="mySwiper w-full h-full" autoplay-delay="2500"
                 autoplay-disable-on-interaction="false" loop="true" space-between="30" slides-per-view="auto">
-                <swiper-slide class="flex justify-center items-center py-2  w-full md:w-100 ">
+                <swiper-slide class="flex justify-center items-center py-2 w-full md:w-95  ">
                     <div class="bg-zinc-100 p-6 rounded-lg shadow-xl">
                         <h3 class="font-semibold">Interesting Me</h3>
                         <p>⭐⭐⭐⭐⭐</p>
-                        <p>Didn't know so much information can be retrieved through our DNA. Wonderful
+                        <p class="line-clamp-3" >Didn't know so much information can be retrieved through our DNA. Wonderful
                             experience and good to know more about myself.</p>
+                            <a href="" class="font-medium text-xs text-blue-500 hover:underline">
+                                Read more &raquo;
+                            </a>
                     </div>
                 </swiper-slide>
-                <swiper-slide class="flexjustify-center items-center py-2 w-full md:w-100">
+                <swiper-slide class="flexjustify-center items-center py-2 w-full md:w-95 ">
                     <div class="bg-zinc-100 p-6 rounded-lg shadow-xl">
                         <h3 class="font-semibold">Detail Oriented DNA Health Test</h3>
                         <p>⭐⭐⭐⭐⭐</p>
-                        <p>I think it’s amazing how even a simple cheek swab can help you learn so much about
+                        <p class="line-clamp-3">I think it’s amazing how even a simple cheek swab can help you learn so much about
                             yourself, your genetics, and your health prospects.</p>
+                            <a href="" class="font-medium text-xs text-blue-500 hover:underline">
+                                Read more &raquo;
+                            </a>
                     </div>
                 </swiper-slide>
-                <swiper-slide class="flex justify-center items-center py-2 w-full md:w-100 ">
+                <swiper-slide class="flex justify-center items-center py-2 w-full md:w-95  ">
                     <div class="bg-zinc-100 p-6 rounded-lg shadow-xl">
-                        <h3 class="font-semibold">My DNA discovery</h3>
+                        <h3 class="font-semibold">Interesting Me</h3>
                         <p>⭐⭐⭐⭐⭐</p>
-                        <p>I feel like I’m introduced to my origin self through DNA Testing.</p>
+                        <p class="line-clamp-3" >Didn't know so much information can be retrieved through our DNA. Wonderful
+                            experience and good to know more about myself.</p>
+                            <a href="" class="font-medium text-xs text-blue-500 hover:underline">
+                                Read more &raquo;
+                            </a>
                     </div>
                 </swiper-slide>
-                <swiper-slide class="flex justify-center items-center py-2 w-full md:w-100 ">
+                <swiper-slide class="flexjustify-center items-center py-2 w-full md:w-95 ">
                     <div class="bg-zinc-100 p-6 rounded-lg shadow-xl">
-                        <h3 class="font-semibold">Accurate DNA Results</h3>
+                        <h3 class="font-semibold">Detail Oriented DNA Health Test</h3>
                         <p>⭐⭐⭐⭐⭐</p>
-                        <p>So interesting to be given such accurate DNA results! Such great insights into health
-                            and personality.</p>
+                        <p class="line-clamp-3">I think it’s amazing how even a simple cheek swab can help you learn so much about
+                            yourself, your genetics, and your health prospects.</p>
+                            <a href="" class="font-medium text-xs text-blue-500 hover:underline">
+                                Read more &raquo;
+                            </a>
                     </div>
                 </swiper-slide>
+                
 
             </swiper-container>
 
