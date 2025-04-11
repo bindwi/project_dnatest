@@ -27,42 +27,42 @@
             <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
                 <div class="max-w-screen-xl mx-auto px-4 py-8">
                     <h1 class="text-3xl font-bold text-center text-blue-600 mb-8">What can we help you with?</h1>
-                    <div class="flex flex-wrap justify-center gap-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-5 justify-center ">
                         <!-- Healthy Body Card -->
-                        <div class="bg-green-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/healthy-body-image.jpg" >
+                        <div class="bg-green-100 rounded-lg p-6 my-2 shadow-lg text-center w-64">
+                            <img src="/img/bmi.png" >
                             <h2 class="text-xl font-semibold mb-2">Healthy Body</h2>
                             <p class="text-gray-700">Learn how to work with your DNA to build a diet and fitness routine that gets results more quickly.</p>
                             <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
                         </div>
             
                         <!-- Family Planning Card -->
-                        <div class="bg-blue-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/family-planning-image.jpg" >
+                        <div class="bg-blue-100 rounded-lg p-6 my-2 shadow-lg text-center w-64">
+                            <img src="/img/family.png" >
                             <h2 class="text-xl font-semibold mb-2">Family Planning</h2>
                             <p class="text-gray-700">Get screened for hereditary genetic conditions that may be passed on to your child.</p>
                             <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
                         </div>
             
                         <!-- Cancer & Disease Risk Card -->
-                        <div class="bg-yellow-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/cancer-risk-image.jpg" >
+                        <div class="bg-yellow-100 rounded-lg p-6 my-2 shadow-lg text-center w-64">
+                            <img src="/img/cancer-cell.png" >
                             <h2 class="text-xl font-semibold mb-2">Cancer & Disease Risk</h2>
                             <p class="text-gray-700">Discover your genetic risk level for hundreds of cancers & diseases that may impact your future.</p>
                             <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
                         </div>
             
                         <!-- Skin Card -->
-                        <div class="bg-purple-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/skin-image.jpg" >
+                        <div class="bg-purple-100 rounded-lg p-6 my-2 shadow-lg text-center w-64">
+                            <img src="/img/skin-protection.png" >
                             <h2 class="text-xl font-semibold mb-2">Skin</h2>
                             <p class="text-gray-700">Get personalised skincare tips and insights to reveal your brightest, most youthful skin.</p>
                             <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
                         </div>
             
                         <!-- Success Traits Card -->
-                        <div class="bg-orange-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/success-traits-image.jpg" >
+                        <div class="bg-orange-100 rounded-lg p-6 my-2 shadow-lg text-center w-64">
+                            <img src="/img/success.png" >
                             <h2 class="text-xl font-semibold mb-2">Success Traits</h2>
                             <p class="text-gray-700">Discover your child's hidden genetic talents and help them achieve their highest potential.</p>
                             <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
@@ -71,53 +71,72 @@
                 </div>
 
                 <div class="max-w-screen-xl mx-auto px-4 py-8">
-                    <h1 class="text-3xl font-bold text-center text-blue-600 mb-8">Trusted Research & Result</h1>
+                    <h1 class="text-3xl font-bold text-center text-blue-600 mb-8">Trusted Research & Results</h1>
                     <div class="flex flex-wrap justify-center gap-6">
-                    
-                        <div class="bg-white-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/healthy-body-image.jpg" >
+        
+                        <!-- Cutting Edge Technology Card -->
+                        <div class="bg-gray-100 rounded-lg p-6 shadow-lg text-center w-72">
+                            <div class="mb-4">
+                                <img src="/img/lab.png" alt="Cutting Edge Technology" class="rounded-lg w-full h-32 object-cover">
+                            </div>
                             <h2 class="text-xl font-semibold mb-2">Cutting Edge Technology</h2>
-                            <p class="text-gray-700">Isi deskripsi.</p>
+                            <p class="text-gray-700 text-sm">99.9% analytical accuracy by fully utilising 3 generations of sequencing platforms:</p>
+                            <ul class="text-gray-700 text-sm list-disc list-inside">
+                                <li>Sanger Sequencing</li>
+                                <li>NGS: Illumina Platform</li>
+                                <li>3rd Generation Long-Read Sequencing</li>
+                            </ul>
                         </div>
-            
-                        
-                        <div class="bg-white-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/family-planning-image.jpg" >
-                            <h2 class="text-xl font-semibold mb-2">Internationaly Accredited Laboratory</h2>
-                            <p class="text-gray-700">Isi Deskripsi</p>
+
+                        <!-- Internationally Accredited Laboratory Card -->
+                        <div class="bg-gray-100 rounded-lg p-6 shadow-lg text-center w-72">
+                            <div class="mb-4">
+                                <img src="/img/sample.jpeg" alt="Internationally Accredited Laboratory" class="rounded-lg w-full h-32 object-cover">
+                            </div>
+                            <h2 class="text-xl font-semibold mb-2">Internationally Accredited Laboratory</h2>
+                            <p class="text-gray-700 text-sm">Certified with CAP ISO-15189 and ISO-27001, our lab upholds international standards for quality and data security. We guarantee precision, reliability, and safety in our genetic testing services.</p>
                         </div>
-            
-                
-                        <div class="bg-white-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/cancer-risk-image.jpg" >
+
+                        <!-- Expert Lab & Clinical Team Card -->
+                        <div class="bg-gray-100 rounded-lg p-6 shadow-lg text-center w-72">
+                            <div class="mb-4">
+                                <img src="/img/lab.png" alt="Expert Lab & Clinical Team" class="rounded-lg w-full h-32 object-cover">
+                            </div>
                             <h2 class="text-xl font-semibold mb-2">Expert Lab & Clinical Team</h2>
-                            <p class="text-gray-700">Isi Deskripsi</p>
+                            <p class="text-gray-700 text-sm">Genetic testing and genomic services are developed and overseen by global leaders in DNA sequencing. Dr. Lawrence Tzang leads Circle’s Lab & Development with 20+ years of experience.</p>
                         </div>
                     </div>
                 </div>
+
 
                  <div class="max-w-screen-xl mx-auto px-4 py-8">
                     <h1 class="text-3xl font-bold text-center text-blue-600 mb-8">Genetic Testing</h1>
                     <div class="flex flex-wrap justify-center gap-6">
                     
-                        <div class="bg-white-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/healthy-body-image.jpg" >
-                            <h2 class="text-xl font-semibold mb-2">Cutting Edge Technology</h2>
-                            <p class="text-gray-700">Isi deskripsi.</p>
+                        <div class="bg-white rounded-lg p-6 shadow-lg text-center w-72">
+                            <div class="flex justify-center mb-4">
+                                <img src="/img/sample.jpeg" alt="Vital DNA Test" class="w-24">
+                            </div>
+                            <h2 class="text-xl font-semibold mb-2">Vital DNA Test</h2>
+                            <p class="text-gray-700 text-sm">Your first gateway to genetic insights: 120+ reports on diet management, fitness, nutrition, and more, enhancing daily life with personalised guidelines.</p>
                         </div>
-            
-                        
-                        <div class="bg-white-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/family-planning-image.jpg" >
-                            <h2 class="text-xl font-semibold mb-2">Internationaly Accredited Laboratory</h2>
-                            <p class="text-gray-700">Isi Deskripsi</p>
+
+                        <!-- Health DNA Test Card -->
+                        <div class="bg-white rounded-lg p-6 shadow-lg text-center w-72">
+                            <div class="flex justify-center mb-4">
+                                <img src="/img/lab.png" alt="Health DNA Test" class="w-24">
+                            </div>
+                            <h2 class="text-xl font-semibold mb-2">Health DNA Test</h2>
+                            <p class="text-gray-700 text-sm">A holistic disease risk assessment: 115+ professional disease risk insights for proactive health management and early disease prevention.</p>
                         </div>
-            
-                
-                        <div class="bg-white-100 rounded-lg p-6 shadow-lg text-center w-64">
-                            <img src="path/to/cancer-risk-image.jpg" >
-                            <h2 class="text-xl font-semibold mb-2">Expert Lab & Clinical Team</h2>
-                            <p class="text-gray-700">Isi Deskripsi</p>
+
+                        <!-- Premium DNA Test Card -->
+                        <div class="bg-white rounded-lg p-6 shadow-lg text-center w-72">
+                            <div class="flex justify-center mb-4">
+                                <img src="/img/sample.jpeg" alt="Premium DNA Test" class="w-24">
+                            </div>
+                            <h2 class="text-xl font-semibold mb-2">Premium DNA Test</h2>
+                            <p class="text-gray-700 text-sm">Ultimate guide to your health: Comprehensive 500+ actionable reports ranging from wellness to disease, powered by the world’s most advanced DNA technology.</p>
                         </div>
                     </div>
                 </div>
