@@ -1,4 +1,4 @@
-<footer class="bg-white shadow-sm">
+<footer class="bg-white mt-2 shadow-sm">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a
                 href="/" class="hover:underline">Dna Testing™</a>. All Rights
@@ -13,7 +13,7 @@
                 <x-nav-foo href="/shop" :active="request()->is('shop')"> SHOP</x-nav-foo>
             </li>
             <li>
-                <x-nav-foo href="/report" :active="request()->is('report')"> DNA REPORT</x-nav-foo>
+                <x-nav-foo href="/report" :active="request()->is('report')"> REPORT</x-nav-foo>
             </li>
             <li>
                 <x-nav-foo href="/life" :active="request()->is('life')">DREAM LIFE</x-nav-foo>

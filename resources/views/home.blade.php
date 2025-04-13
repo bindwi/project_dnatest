@@ -20,7 +20,7 @@
         <x-navbar></x-navbar>
 
         <!--Advertising-->
-        <section class="w-full h-full drop-shadow-xl ">
+        <section class="w-full h-full drop-shadow-md ">
             <div class=" bg-transparent absolute z-10 mt-30 md:mt-50 md:ml-5 text-zinc-100 ">
                 <h2 class="text-md md:text-4xl xl:text-5xl font-bold font-poppins">DNA TESTING SERVICES</h2>
                 <p class="text-sm md:text-md xl:text-xl tracking-[.25em] font-bold font-poppins">your path to better
@@ -135,7 +135,7 @@
                 coverflow-effect-slide-shadows="true">
                 <swiper-slide class="w-80 h-full p-4 bg-center bg-cover">
                     <section class="bg-blue-100 p-4 rounded-lg ">
-                        <div class="flex flex-col items-center shadow-xl ">
+                        <div class="flex flex-col items-center shadow-md ">
                             <img src="img/lab.png" alt="DNA Collection Kit" class=" w-full h-45 rounded-t-lg" />
                             <div class="bg-white p-4 rounded-b-lg shadow-md">
                                 <h3 class="text-xl font-bold">Premium DNA Test</h3>
@@ -151,7 +151,7 @@
                 </swiper-slide>
                 <swiper-slide class="w-80 h-full p-4 bg-center bg-cover">
                     <section class="bg-blue-100 p-4 rounded-lg ">
-                        <div class="flex flex-col items-center shadow-xl ">
+                        <div class="flex flex-col items-center shadow-md ">
                             <img src="img/sample.jpeg" alt="DNA Collection Kit" class=" w-full h-45 rounded-t-lg" />
                             <div class="bg-white p-4 rounded-b-lg shadow-md">
                                 <h3 class="text-xl font-bold">Premium DNA Test</h3>
@@ -167,7 +167,7 @@
                 </swiper-slide>
                 <swiper-slide class="w-80 h-full p-4 bg-center bg-cover">
                     <section class="bg-blue-100 p-4 rounded-lg ">
-                        <div class="flex flex-col items-center shadow-xl ">
+                        <div class="flex flex-col items-center shadow-md ">
                             <img src="img/lab.png" alt="DNA Collection Kit" class=" w-full h-45 rounded-t-lg" />
                             <div class="bg-white p-4 rounded-b-lg shadow-md">
                                 <h3 class="text-xl font-bold">Premium DNA Test</h3>
@@ -183,7 +183,7 @@
                 </swiper-slide>
                 <swiper-slide class="w-80 h-full p-4 bg-center bg-cover">
                     <section class="bg-blue-100 p-4 rounded-lg ">
-                        <div class="flex flex-col items-center shadow-xl ">
+                        <div class="flex flex-col items-center shadow-md ">
                             <img src="img/sample.jpeg" alt="DNA Collection Kit" class=" w-full h-45 rounded-t-lg" />
                             <div class="bg-white p-4 rounded-b-lg shadow-md">
                                 <h3 class="text-xl font-bold">Premium DNA Test</h3>
@@ -199,7 +199,7 @@
                 </swiper-slide>
                 <swiper-slide class="w-80 h-full p-4 bg-center bg-cover">
                     <section class="bg-blue-100 p-4 rounded-lg ">
-                        <div class="flex flex-col items-center shadow-xl ">
+                        <div class="flex flex-col items-center shadow-md ">
                             <img src="img/lab.png" alt="DNA Collection Kit" class=" w-full h-45 rounded-t-lg" />
                             <div class="bg-white p-4 rounded-b-lg shadow-md">
                                 <h3 class="text-xl font-bold">Premium DNA Test</h3>
@@ -215,7 +215,7 @@
                 </swiper-slide>
                 <swiper-slide class="w-80 h-full p-4 bg-center bg-cover">
                     <section class="bg-blue-100 p-4 rounded-lg ">
-                        <div class="flex flex-col items-center shadow-xl ">
+                        <div class="flex flex-col items-center shadow-md ">
                             <img src="img/sample.jpeg" alt="DNA Collection Kit" class=" w-full h-45 rounded-t-lg" />
                             <div class="bg-white p-4 rounded-b-lg shadow-md">
                                 <h3 class="text-xl font-bold">Premium DNA Test</h3>
@@ -237,7 +237,7 @@
             <swiper-container class="mySwiper w-full h-full" autoplay-delay="2500"
                 autoplay-disable-on-interaction="false" loop="true" space-between="30" slides-per-view="auto">
                 <swiper-slide class="flex justify-center items-center py-2 w-full md:w-95  ">
-                    <div class="bg-zinc-100 p-6 rounded-lg shadow-xl">
+                    <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
                         <h3 class="font-semibold">Interesting Me</h3>
                         <p>⭐⭐⭐⭐⭐</p>
                         <p class="line-clamp-3" >Didn't know so much information can be retrieved through our DNA. Wonderful
@@ -248,7 +248,7 @@
                     </div>
                 </swiper-slide>
                 <swiper-slide class="flexjustify-center items-center py-2 w-full md:w-95 ">
-                    <div class="bg-zinc-100 p-6 rounded-lg shadow-xl">
+                    <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
                         <h3 class="font-semibold">Detail Oriented DNA Health Test</h3>
                         <p>⭐⭐⭐⭐⭐</p>
                         <p class="line-clamp-3">I think it’s amazing how even a simple cheek swab can help you learn so much about
@@ -259,7 +259,7 @@
                     </div>
                 </swiper-slide>
                 <swiper-slide class="flex justify-center items-center py-2 w-full md:w-95  ">
-                    <div class="bg-zinc-100 p-6 rounded-lg shadow-xl">
+                    <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
                         <h3 class="font-semibold">Interesting Me</h3>
                         <p>⭐⭐⭐⭐⭐</p>
                         <p class="line-clamp-3" >Didn't know so much information can be retrieved through our DNA. Wonderful
@@ -270,7 +270,7 @@
                     </div>
                 </swiper-slide>
                 <swiper-slide class="flexjustify-center items-center py-2 w-full md:w-95 ">
-                    <div class="bg-zinc-100 p-6 rounded-lg shadow-xl">
+                    <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
                         <h3 class="font-semibold">Detail Oriented DNA Health Test</h3>
                         <p>⭐⭐⭐⭐⭐</p>
                         <p class="line-clamp-3">I think it’s amazing how even a simple cheek swab can help you learn so much about
