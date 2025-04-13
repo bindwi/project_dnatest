@@ -27,9 +27,9 @@
             <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
                 <div class="max-w-screen-xl mx-auto px-4 py-8">
                     <h1 class="text-3xl font-bold text-center text-blue-600 mb-8">What can we help you with?</h1>
-                    <div class="grid grid-cols-1 sm:grid-cols-5 justify-center ">
+                    <div class="grid grid-cols-1 gap-2 sm:grid-cols-5 justify-center ">
                         <!-- Healthy Body Card -->
-                        <div class="bg-green-100 rounded-lg p-6 my-2 shadow-lg text-center w-64">
+                        <div class="bg-green-100 rounded-lg p-6 my-2 shadow-lg text-center w-full">
                             <img src="/img/bmi.png" >
                             <h2 class="text-xl font-semibold mb-2">Healthy Body</h2>
                             <p class="text-gray-700">Learn how to work with your DNA to build a diet and fitness routine that gets results more quickly.</p>
@@ -37,7 +37,7 @@
                         </div>
             
                         <!-- Family Planning Card -->
-                        <div class="bg-blue-100 rounded-lg p-6 my-2 shadow-lg text-center w-64">
+                        <div class="bg-blue-100 rounded-lg p-6 my-2 shadow-lg text-center w-full">
                             <img src="/img/family.png" >
                             <h2 class="text-xl font-semibold mb-2">Family Planning</h2>
                             <p class="text-gray-700">Get screened for hereditary genetic conditions that may be passed on to your child.</p>
@@ -45,7 +45,7 @@
                         </div>
             
                         <!-- Cancer & Disease Risk Card -->
-                        <div class="bg-yellow-100 rounded-lg p-6 my-2 shadow-lg text-center w-64">
+                        <div class="bg-yellow-100 rounded-lg p-6 my-2 shadow-lg text-center w-full">
                             <img src="/img/cancer-cell.png" >
                             <h2 class="text-xl font-semibold mb-2">Cancer & Disease Risk</h2>
                             <p class="text-gray-700">Discover your genetic risk level for hundreds of cancers & diseases that may impact your future.</p>
@@ -53,7 +53,7 @@
                         </div>
             
                         <!-- Skin Card -->
-                        <div class="bg-purple-100 rounded-lg p-6 my-2 shadow-lg text-center w-64">
+                        <div class="bg-purple-100 rounded-lg p-6 my-2 shadow-lg text-center w-full">
                             <img src="/img/skin-protection.png" >
                             <h2 class="text-xl font-semibold mb-2">Skin</h2>
                             <p class="text-gray-700">Get personalised skincare tips and insights to reveal your brightest, most youthful skin.</p>
@@ -61,7 +61,7 @@
                         </div>
             
                         <!-- Success Traits Card -->
-                        <div class="bg-orange-100 rounded-lg p-6 my-2 shadow-lg text-center w-64">
+                        <div class="bg-orange-100 rounded-lg p-6 my-2 shadow-lg text-center w-full">
                             <img src="/img/success.png" >
                             <h2 class="text-xl font-semibold mb-2">Success Traits</h2>
                             <p class="text-gray-700">Discover your child's hidden genetic talents and help them achieve their highest potential.</p>

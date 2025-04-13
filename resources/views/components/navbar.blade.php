@@ -13,7 +13,7 @@
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                             <x-nav-link href="/" :active="request()->is('/')"> HOME</x-nav-link>
                             <x-nav-link href="/shop" :active="request()->is('shop')"> SHOP</x-nav-link>
-                            <x-nav-link href="/report" :active="request()->is('report')"> DNA REPORT</x-nav-link>
+                            <x-nav-link href="/report" :active="request()->is('report')"> REPORT</x-nav-link>
                             <x-nav-link href="/life" :active="request()->is('life')">DREAM LIFE</x-nav-link>
 
                         </div>
@@ -52,7 +52,7 @@
 
                 <x-nav-link-mob href="/" :active="request()->is('/')">HOME</x-nav-link-mob>
                 <x-nav-link-mob href="/shop" :active="request()->is('shop')">SHOP</x-nav-link-mob>
-                <x-nav-link-mob href="/report" :active="request()->is('report')">DNA REPORT</x-nav-link-mob>
+                <x-nav-link-mob href="/report" :active="request()->is('report')">REPORT</x-nav-link-mob>
                 <x-nav-link-mob href="/life" :active="request()->is('life')">DREAM LIFE</x-nav-link-mob>
 
             </div>
