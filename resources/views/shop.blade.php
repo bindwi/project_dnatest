@@ -33,7 +33,7 @@
                             <img src="/img/bmi.png" >
                             <h2 class="text-xl font-semibold mb-2">Healthy Body</h2>
                             <p class="text-gray-700">Learn how to work with your DNA to build a diet and fitness routine that gets results more quickly.</p>
-                            <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
+                            <a href="/shop/healthy" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</a>
                         </div>
             
                         <!-- Family Planning Card -->
@@ -41,7 +41,7 @@
                             <img src="/img/family.png" >
                             <h2 class="text-xl font-semibold mb-2">Family Planning</h2>
                             <p class="text-gray-700">Get screened for hereditary genetic conditions that may be passed on to your child.</p>
-                            <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
+                            <a href="/shop/family" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</a>
                         </div>
             
                         <!-- Cancer & Disease Risk Card -->
@@ -49,7 +49,7 @@
                             <img src="/img/cancer-cell.png" >
                             <h2 class="text-xl font-semibold mb-2">Cancer & Disease Risk</h2>
                             <p class="text-gray-700">Discover your genetic risk level for hundreds of cancers & diseases that may impact your future.</p>
-                            <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
+                            <a href="/shop/cancer" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</a>
                         </div>
             
                         <!-- Skin Card -->
@@ -57,7 +57,7 @@
                             <img src="/img/skin-protection.png" >
                             <h2 class="text-xl font-semibold mb-2">Skin</h2>
                             <p class="text-gray-700">Get personalised skincare tips and insights to reveal your brightest, most youthful skin.</p>
-                            <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
+                            <a href="/shop/skin" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</a>
                         </div>
             
                         <!-- Success Traits Card -->
@@ -65,7 +65,7 @@
                             <img src="/img/success.png" >
                             <h2 class="text-xl font-semibold mb-2">Success Traits</h2>
                             <p class="text-gray-700">Discover your child's hidden genetic talents and help them achieve their highest potential.</p>
-                            <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</button>
+                            <a href="/shop/success" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Shop now</a>
                         </div>
                     </div>
                 </div>
