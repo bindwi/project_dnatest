@@ -16,6 +16,8 @@
     },
     "dependencies": {
         "chart.js": "^4.4.8",
+        "framer-motion": "^12.7.4",
+        "lucide-react": "^0.501.0",
         "swiper": "^11.2.6"
     }
 }
