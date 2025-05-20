@@ -1,39 +1,42 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ReportController;
 
 Route::get('/', function () {
-    return view(view: 'home');
+    return view('home');
 });
 
 Route::get('/shop', function () {
-    return view(view: 'shop');
+    return view('shop');
 });
 
 Route::get('/shop/healthy', function () {
-    return view(view: 'healthy');
+    return view('healthy');
 });
 
 Route::get('/shop/cancer', function () {
-    return view(view: 'cancer');
+    return view('cancer');
 });
 
 Route::get('/shop/skin', function () {
-    return view(view: 'skin');
+    return view('skin');
 });
 
 Route::get('/shop/success', function () {
-    return view(view: 'success');
+    return view('success');
 });
 
 Route::get('/shop/family', function () {
-    return view(view: 'family');
+    return view('family');
 });
 
 Route::get('/report', function () {
-    return view(view: 'report');
+    return view('report');
 });
 
 Route::get('/life', function () {
-    return view(view: 'life');
+    return view('life');
 });
+
+Route::get('/dashboard', [ReportController::class, 'index']);
