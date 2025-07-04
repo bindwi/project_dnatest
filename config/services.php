@@ -14,6 +14,11 @@ return [
     |
     */
 
+    'selfdecode' => [
+    'base_url' => env('SELF_DECODE_API_URL'),
+    'token'    => env('SELF_DECODE_API_TOKEN'),
+],
+
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
