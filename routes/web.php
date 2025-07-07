@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ReportController;
+use App\Http\Controllers\ProfileImportController;
+
+Route::get('/import', function () {
+    $profiles = \App\Models\Profile::all();
+    return view('import', compact('profiles'));
+});
 
 Route::get('/', function () {
     return view('home');
@@ -40,3 +46,4 @@ Route::get('/life', function () {
 });
 
 Route::get('/dashboard', [ReportController::class, 'index']);
+Route::post('/import', [ProfileImportController::class, 'import']);

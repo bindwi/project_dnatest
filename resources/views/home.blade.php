@@ -18,7 +18,7 @@
 <body class="">
     <div class="min-h-full">
         <x-navbar></x-navbar>
-
+        
         <!--Advertising-->
         <section class="w-full h-full drop-shadow-md ">
             <div class=" bg-transparent absolute z-10 mt-30 md:mt-50 md:ml-5 text-zinc-100 ">
