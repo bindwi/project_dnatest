@@ -20,6 +20,7 @@
 <body>
     <div class="min-h-full">
         <x-navbar></x-navbar>
+        
 
         <main>
             <h2 class="text-3xl my-5 font-semibold text-center">PHYSICAL FEATURES</h2>
@@ -240,12 +241,12 @@
                 labels: ['Detached', 'Attached'],
                 datasets: [{
                     label: 'Percent',
-                    data: [64,36],
+                    data: [64, 36],
                     borderWidth: 4,
                     backgroundColor: [
                         'rgba(172,65,61, 0.8)',
                         'rgba(54,131,100, 0.8)',
-                        
+
 
                     ]
                 }]
